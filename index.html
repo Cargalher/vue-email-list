@@ -9,8 +9,9 @@
 <body>
     <div id="app">
         <h1>{{title}}</h1>
+       
         <ul>
-            <li>{{ usersEmail}}</li>
+            <li  v-for="email in emails">{{ email.emailUser }}</li>
         </ul>
     </div>
     <!-- VUE JS -->
